@@ -15,6 +15,7 @@ const reactionSchema = new Schema({
     reactionBody: {
         type: String,
         required: [true, 'Enter a reaction!'],
+        minLength: 2,
         maxLength: 280
     },
 

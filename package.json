@@ -1,11 +1,11 @@
 {
-  "name": "Social-Network-Api",
+  "name": "Social-Network",
   "version": "1.0.0",
-  "description": "Reverse engineer developer activity for CRUD methods in Mongoose",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index",
+    "start": "node server.js",
     "dev": "nodemon index",
     "seed": "node utils/seed"
   },
