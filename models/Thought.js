@@ -9,6 +9,7 @@ const thoughtSchema = new Schema({
     thoughtText: {
         type: String,
         required: [true, 'Enter a Thought!'],
+        minLength: 2,
         maxLength: 280
     },
 
